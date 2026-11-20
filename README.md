@@ -30,3 +30,15 @@ The Go executable artifacts use the Go runtime and Google UUID. Their license no
 ## Synthetic scenario
 
 Use the default branch to verify successful Go and Java builds and same-run artifact execution. Both applications live at the repository root. The Go tests check UUID formatting, and the Maven tests verify the JAR greeting. The two synthetic branches demonstrate negative outcomes independently.
+
+## CI Verification
+
+This repository validates reusable Go and Java workflows
+through positive and intentional negative test scenarios.
+
+The `main` branch contains valid consumer applications.
+The `synthetic-*` branches verify expected failure handling.
+
+GitHub Actions was re-enabled at repository level on
+2026-11-20. Automatic push-triggered execution and cache
+behavior are being verified.
