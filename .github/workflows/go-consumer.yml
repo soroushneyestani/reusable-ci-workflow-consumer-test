@@ -16,12 +16,12 @@ permissions:
 jobs:
   go-linux:
     name: Go on Linux
-    uses: soroushneyestani/reusable-ci-workflow-toolkit/.github/workflows/reusable-go.yml@1cb148e097c15a746d70465425055f59ff1ceadd
+    uses: soroushneyestani/reusable-ci-workflow-toolkit/.github/workflows/reusable-go.yml@v0.1.0
     with:
       go-version: '1.27.4'
   go-windows:
     name: Go on Windows
-    uses: soroushneyestani/reusable-ci-workflow-toolkit/.github/workflows/reusable-go.yml@1cb148e097c15a746d70465425055f59ff1ceadd
+    uses: soroushneyestani/reusable-ci-workflow-toolkit/.github/workflows/reusable-go.yml@v0.1.0
     with:
       go-version: '1.27.4'
       runner: windows-2025
