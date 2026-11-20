@@ -29,4 +29,4 @@ The Go executable artifacts use the Go runtime and Google UUID. Their license no
 
 ## Synthetic scenario
 
-This branch intentionally omits the Go module and Maven POM. Both workflows should reject the missing configuration and upload zero artifacts.
+This branch intentionally omits the Go module and Maven POM. Look for `Required caller root go.mod is missing.` and `A regular caller root pom.xml is required.` before the build steps. Each run should upload zero artifacts.
