@@ -1,6 +1,14 @@
 name: Go consumer
 
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
+      - synthetic-failing-test
+      - synthetic-missing-config
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
