@@ -29,4 +29,4 @@ The Go executable artifacts use the Go runtime and Google UUID. Their license no
 
 ## Synthetic scenario
 
-This branch intentionally changes the expected Go and Java test output. Both workflows should fail at test time and upload zero artifacts.
+This branch intentionally changes the expected Go and Java test output. Look for `go test failed.` on both Go runners and `Maven clean verify failed.` on the Java runner. Each run should upload zero artifacts.
