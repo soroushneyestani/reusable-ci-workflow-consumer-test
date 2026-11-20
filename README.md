@@ -39,6 +39,4 @@ through positive and intentional negative test scenarios.
 The `main` branch contains valid consumer applications.
 The `synthetic-*` branches verify expected failure handling.
 
-GitHub Actions was re-enabled at repository level on
-2026-11-20. Automatic push-triggered execution and cache
-behavior are being verified.
+The preflight runs pinned the full toolkit commit and reported a cache miss on the default-branch push and a hit on the rerun. The exact release tag is checked separately using the steps above. [Go preflight](https://github.com/soroushneyestani/reusable-ci-workflow-consumer-test/actions/runs/44799925042) · [Java preflight](https://github.com/soroushneyestani/reusable-ci-workflow-consumer-test/actions/runs/44799925122)
