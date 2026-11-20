@@ -29,4 +29,4 @@ The Go executable artifacts use the Go runtime and Google UUID. Their license no
 
 ## Synthetic scenario
 
-Use the default branch to verify successful Go and Java builds and same-run artifact execution.
+Use the default branch to verify successful Go and Java builds and same-run artifact execution. Both applications live at the repository root. The Go tests check UUID formatting, and the Maven tests verify the JAR greeting. The two synthetic branches demonstrate negative outcomes independently.
