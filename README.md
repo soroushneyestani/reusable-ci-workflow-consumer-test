@@ -26,3 +26,7 @@ Push the verified caller revision and confirm Go on Ubuntu 24.04 and Windows Ser
 [Go workflow](.github/workflows/go-consumer.yml) · [Java workflow](.github/workflows/java-consumer.yml) · [MIT license](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md)
 
 The Go executable artifacts use the Go runtime and Google UUID. Their license notices accompany the hosted binary downloads and are linked in successful Go job summaries. [Go 1.27.4 license](third-party-licenses/Go-1.27.4-LICENSE.txt) · [Google UUID 1.6.0 license](third-party-licenses/Google-UUID-1.6.0-LICENSE.txt)
+
+## Synthetic scenario
+
+This branch intentionally omits the Go module and Maven POM. Both workflows should reject the missing configuration and upload zero artifacts.
