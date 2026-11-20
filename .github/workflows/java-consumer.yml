@@ -8,7 +8,7 @@ permissions:
 jobs:
   java:
     name: Java on Linux
-    uses: soroushneyestani/reusable-ci-workflow-toolkit/.github/workflows/reusable-java.yml@1cb148e097c15a746d70465425055f59ff1ceadd
+    uses: soroushneyestani/reusable-ci-workflow-toolkit/.github/workflows/reusable-java.yml@v0.1.0
     with:
       java-version: '21'
   verify-jar:
